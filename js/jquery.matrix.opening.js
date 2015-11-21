@@ -28,7 +28,7 @@
 		
 		
 		//Form
-		element.append('<div id="matrix-input"><form name="matrix"><input type="text" name="matrix-text" id="matrix-text" value="THE MATRIX" maxlength="20"><input type="button" id="matrix-run" value="Run!" /></form><p>Please type a title text and push run button.</p></div>');
+		element.append('<div id="matrix-input"><form name="matrix"><input type="text" name="matrix-text" id="matrix-text" value="THE MATRIX" maxlength="20"><input type="button" id="matrix-run" value="Run!" /></form><p>Please type a title text and push run button.(Max length:20types)</p></div>');
 		
 		//Canvas
 		$('#matrix-inner').append('<canvas id="matrix-bg"></canvas>').append('<div id="matrix-title"></div>');
